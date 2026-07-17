@@ -255,18 +255,6 @@ Add your Vivado simulation waveform screenshot here.
 Simulation Waveform
 ```
 
-## 📁 Project Structure
-
-```text
-Synchronous-FIFO-Verilog/
-│
-├── FIFO.v
-├── FIFO_TB.v
-├── README.md
-└── FIFO_SIM/
-    └── Simulation Waveforms
-```
-
 ## 🛠️ Tools Used
 
 * Verilog HDL
