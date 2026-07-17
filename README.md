@@ -234,26 +234,22 @@ always #5 clk = ~clk;
 
 ## 📷 Simulation
 
-The design can be simulated using **Xilinx Vivado Simulator**.
+The design was simulated using **Xilinx Vivado Simulator** to verify the functionality of the synchronous FIFO.
 
-The simulation waveform can be used to observe:
+The simulation waveform demonstrates:
 
-* `clk`
-* `reset`
-* `we`
-* `re`
-* `data_in`
-* `data_out`
-* `FULL`
-* `EMPTY`
+- FIFO reset operation
+- Data write operations
+- Data read operations
+- `FULL` flag assertion
+- `EMPTY` flag assertion
+- Overflow protection
+- Underflow protection
+- Simultaneous read and write operation
 
 ### Simulation Waveform
 
-Add your Vivado simulation waveform screenshot here.
-
-```text
-Screenshot 2026-07-17 230707.png
-```
+![Simulation Waveform](fifo%20waveform/simulation.png)
 
 ## 🛠️ Tools Used
 
