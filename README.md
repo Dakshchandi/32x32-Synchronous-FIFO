@@ -252,7 +252,7 @@ The simulation waveform can be used to observe:
 Add your Vivado simulation waveform screenshot here.
 
 ```text
-Simulation Waveform
+Screenshot 2026-07-17 230707.png
 ```
 
 ## 🛠️ Tools Used
